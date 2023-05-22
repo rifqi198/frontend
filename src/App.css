@@ -3,8 +3,6 @@
   text-align: center;
   display: flex;
   min-height: 100vh;
-  align-items: center;
-  justify-content: center;
   color: black;
   font-family: 'Roboto Condensed';
   font-style: normal;
@@ -17,6 +15,7 @@
   max-width: 700px;
   width: 375px;
   height: auto;
+  
 }
 
 @media screen and (min-width: 600px) {
@@ -77,4 +76,33 @@ button[type=submit]:hover{
   background: none;
   color: #82AAE3;
   text-decoration: underline;
+}
+
+.navBar{
+  margin-bottom: auto; 
+}
+
+nav{
+  background-color: #4d8ce3;
+  width: 100rem;
+  display: flex;
+  
+}
+
+img{
+  width: 100px;
+  height: 50px;
+}
+.logo{
+  background: none;
+}
+.login, .register{
+  width: 150px;
+  height: 50px;
+}
+.login{
+  background-color: red;
+}
+Nav.Link{
+  color: black;
 }
