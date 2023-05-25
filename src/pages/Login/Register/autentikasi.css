@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
+.auth-form-container, .login-form, .register-form {
+    display: flex;
+    flex-direction: column;
+    background-color: #BFEAF5;
+    max-width: 700px;
+    width: 375px;
+    height: auto;
+}
+  
+@media screen and (min-width: 500px) {
+    .auth-form-container {
+      padding: 2rem;
+      padding-top: 0;
+      border-radius: 5px;
+      margin: 0.5rem;
+      margin-top: 7%;
+    }
+  }
+  
+h1 {
+    text-align: left;
+    font-family: 'Inspiration', cursive;
+    font-style: normal;
+    font-weight: 1500px;
+    font-size: 80px;
+    text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.25);
+    letter-spacing: 0.105em;
+    margin-top: -50px;
+}
+  
+label {
+    text-align: left;
+    padding: 0.25rem 0;
+}
+  
+input {
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+  
+button {
+    border: none;
+    background-color: #82AAE3;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: #BFEAF5;
+    font-weight: 700;
+    font-size: 20px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+button[type=submit]:hover{
+    background-color: #4d8ce3;
+}
+  
+#link-btn {
+    font-weight: 100;
+    width: 60%;
+    font-size: 15px;
+    margin-top: 0;
+    background: none;
+    color: #82AAE3;
+    text-decoration: underline;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}

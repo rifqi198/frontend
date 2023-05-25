@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Average&display=swap');
+.landing{
+    align-items: center;
+    font-family: 'Average', serif;
+}
+.navbar{
+    background-color: rgba(191, 234, 245, 1);
+}
+
+.bgAwal{
+    background-color: rgba(191, 234, 245, 1);
+    background-image: linear-gradient(180deg, rgba(191, 234, 245, 1) 70%, #F3F3F3 30% );
+    height: 100vh;
+    width: 105dvw;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    margin-top: 10rem;
+}
+h1{
+    font-family: 'Average', serif;
+    font-size: 2rem;
+    text-shadow: none;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.read{
+    font-size: 3rem;
+}
+.start{
+    border: 2px solid black;
+    padding: 10px 50px;
+    text-decoration: none;
+    color: black;
+}
+
+.line{
+    width: 543px;
+    border-bottom: 3px solid black;
+    margin-top: 50px;
+}
+
+.favBook{
+    margin-top: 50px;
+    background-color: white;
+    width: 530px;
+    height: 250px;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+
+.book-container{
+    display: flex;
+    flex-direction: row;
+}
+.book{
+    margin-top: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cover{
+    width: 120px;
+    height: 170px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.judul{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.most{
+    font-size: 30px;
+    margin-top: -50px;
+    text-align: center;
+}

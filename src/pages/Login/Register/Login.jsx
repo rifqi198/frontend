@@ -1,6 +1,9 @@
 import React, { useState } from "react";
+import { Link, useLocation } from "react-router-dom";
+import "./autentikasi.css"
 
 export const Login = (props) => {
+    const location = useLocation();
     const [email, setEmail] = useState('');
     const [pass, setPass] = useState('');
 
@@ -19,7 +22,7 @@ export const Login = (props) => {
                 <input value={pass} onChange={(e) => setPass(e.target.value)} type="password" placeholder="********" id="password" name="password" />
                 <button type="submit">Login</button>
             </form>
-            <button className="link-btn" onClick={() => props.onFormSwitch('register')}>Create Account</button>
+            <Link id="link-btn" to="/Register" className={location.pathname === "/Register" ? "active-link" : ""}>Create Account</Link>
         </div>
     )
 }
